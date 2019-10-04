@@ -1,0 +1,27 @@
+
+#main-nav li {
+	position: absolute;
+	display: block;
+	top: 13px;
+	height: 24px;
+	width: 140px;
+	overflow: hidden;
+}
+
+#main-nav li a {
+	position: absolute;
+	display: block;
+	top: 0px;
+	width: 100%;
+	height: 48px;
+	text-indent: -10000px;
+}
+
+#main-nav li#neighborhood {
+	margin-left:10px;
+	background: url(../img/nav-frame.png) top left no-repeat;
+}
+
+#main-nav li#neighborhood a {
+	background: url(../img/nav-sprite-neighborhood.png) 50% 0px no-repeat;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+  <HEAD>
+  <TITLE>Send email with CC and BCC</TITLE>
+  </HEAD>
+  <BODY>
+  <FORM action="sendemailWithCC_BCC.php" method="post" name="form1">
+  <TABLE>
+    <TBODY>
+    <TR>
+      <TD>
+       <DIV align="right"><b>To</b></DIV></TD>
+      <TD>
+        <p>Name <INPUT name="mailtoname" size="35"/><BR/>E-mail
+                <INPUT name="mailtomail" size="35"/></p></TD></TR>
+    <TR>
+      <TD>
+        <DIV align="right"><b>CC</b></DIV></TD>
+      <TD><INPUT name="mailcc" size="35"/> </TD></TR>
+    <TR>
+      <TD>
+        <DIV align="right"><b>BCC</b></DIV></TD>
+      <TD><INPUT name="mailbcc" size="35"/> </TD></TR>
+    <TR>
+      <TD>
+        <DIV align="right"><b>Priority</b></DIV></TD>
+      <TD><SELECT name="mailpriority">
+            <OPTION value="1">Highest</OPTION>
+            <OPTION value="2">High</OPTION>
+            <OPTION  value="3">Normal</OPTION>
+            <OPTION value="4">Low</OPTION>
+            <OPTION value="5">Lowest</OPTION>
+          </SELECT>
+      </TD></TR>
+    <TR>
+      <TD><DIV align="right"><b>Subject</b></DIV></TD>
+      <TD><INPUT name="mailsubject" size="35"/></TD></TR>
+    <TR>
+      <TD>
+        <DIV align="right"><b>Message</b> </DIV></TD>
+      <TD><TEXTAREA cols="50" name="mailbody" rows="7"></TEXTAREA> </TD></TR>
+    <TR>
+      <TD colSpan="2">
+        <DIV align="center"><INPUT name="Submit" type="submit" value="Submit"/></DIV>
+    </TD>
+    </TR>
+   </TBODY>
+   </TABLE>
+  </FORM>
+  </BODY>
+  </HTML>

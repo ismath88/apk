@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/******************************
+ * Reset                      *
+ *                            *
+ ******************************
+/                            */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul#sub-nav li a {
+	font: bold 12px/10px "Droid Sans", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #222222;
+	-webkit-transition: color .25s ease;
+	-moz-transition: color .25s ease;
+	-o-transition: color .25s ease;
+	transition: color .25s ease;
+	display: inline;
+}
+
+#wrapper {
+	width:100%;
+	height:auto;
+	background-color: #eeeeee;
+	background:
+		url(../img/bg-texture-left.jpg) repeat-y 0 -5px,
+		url(../img/bg-texture-right.jpg) repeat-y 100% -5px;
+}
+
+#main-nav {
+	position: relative;
+	width: 100%;
+	height: 61px;
+	background: url(../img/bg-main-nav.png) top left repeat-x;
+}
+
+div#nav-wrapper ul.no-subnav {
+	height: 61px;
+	background: url(../img/bg-main-nav-skinny.png) top left repeat-x;
+}
+
+div#nav-wrapper ul.with-subnav {
+	height: 49px;
+	background: url(../img/bg-main-nav.png) top left repeat-x;
+}
+
+#main-nav li {
+	position: absolute;
+	display: block;
+	top: 13px;
+	left: 50%;
+	height: 24px;
+	width: 140px;
+	overflow: hidden;
+}
+
+#main-nav li a {
+	position: absolute;
+	display: block;
+	top: 0px;
+	width: 100%;
+	height: 48px;
+	text-indent: -10000px;
+}*/
+
+#main-nav li a.nav-selected {
+	top: -24px;
+}
+
+#main-nav li#neighborhood {
+	margin-left: -489px;
+	background: url(../img/nav-frame.png) top left no-repeat;
+}
+
+#main-nav li#neighborhood a {
+	background: url(../img/home.png) 50% 0px no-repeat;
+}
+
+#main-nav li#transportation {
+	margin-left: -277px;
+	background: url(../img/nav-frame.png) top left no-repeat;
+}
+
+#main-nav li#transportation a {
+	background: url(../img/about.png) 50% 0px no-repeat;
+}
+
+#main-nav li#home {
+	top: 7px;
+	margin-left: -94px;
+	width: 188px;
+	height: 42px;
+}
+
+#main-nav li#home a {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	background: url(../img/nav-logo.png) top left no-repeat;
+}
+
+#main-nav li#history {
+	margin-left:137px;
+	background:url(../img/nav-frame.png) top left no-repeat;
+}
+
+#main-nav li#history a {
+	background: url(../img/service.png) 50% 0px no-repeat;
+}
+
+#main-nav li#development {
+	margin-left: 349px;
+	background: url(../img/nav-frame.png) top left no-repeat;
+}
+
+#main-nav li#development a {
+	background: url(../img/contact.png) 50% 0px no-repeat;
+}
+
